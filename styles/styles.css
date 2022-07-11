@@ -1,0 +1,37 @@
+.main {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.main__heading {
+  text-align: center;
+}
+.main .content-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  text-align: center;
+  margin: 50px 0;
+}
+.main .content-container .new-meal__form {
+  margin-top: 10px;
+}
+.main .content-container .new-meal__form label {
+  font-size: 12px;
+}
+.main .content-container .new-meal__form .form-data__container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  grid-column-gap: 5px;
+  align-items: center;
+}
+.main .content-container .new-meal__form input {
+  width: 200px;
+}
+.main .content-container .new-meal__form select {
+  width: 40px;
+}
+.main .content-container .new-meal__form button {
+  display: block;
+  margin: 10px auto 0;
+}/*# sourceMappingURL=styles.css.map */
